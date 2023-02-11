@@ -1,0 +1,12 @@
+#packopt hide 1
+gsel 0, -1
+
+repeat
+	wait 6000
+	mmload "sadako_himai.wav", 255
+	mmplay 255
+	bgscr 0, ginfo(20), ginfo(21), , 0, 0
+	picload "HSP3TTL.JPG"
+	wait 400
+	gsel 0, -1
+loop
